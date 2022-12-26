@@ -11,9 +11,7 @@ Python 3.7, Django 3.2, DRF, JWT + Djoser
 - Установите и активируйте виртуальное окружение c учетом версии Python 3.7 (выбираем python не ниже 3.7):
 ```bash
 ```py -m venv venv
-```
 ```source venv/Scripts/activate
-```
 ```python -m pip install --upgrade pip
 ```
 - Устанаввливаем зависимости из файла requirements.txt
@@ -22,7 +20,7 @@ pip install -r requirements.txt
 ```
 - Выполняем миграции:
 ```bash
-python manage.py migrate
+```python manage.py migrate
 ```
 Создаем суперпользователя:
 ```bash
