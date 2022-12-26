@@ -57,19 +57,23 @@ GET api/v1/posts/{id}/ - получение публикации по id
 POST /api/v1/posts/
 ```
 в body
+```bash
 {
 "text": "text",
 "image": "string",
 "group": 1
 }
+```
 
 Обновление публикации:
 ```bash
 PUT /api/v1/posts/{id}/
 ```
 в body
+```bash
 {
 "text": "text",
 "image": "string",
 "group": 0
 }
+```
